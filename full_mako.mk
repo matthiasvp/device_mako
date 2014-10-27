@@ -17,11 +17,11 @@
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-        LiveWallpapers \
-        LiveWallpapersPicker \
-        VisualizationWallpapers
+# Get rid of the Live Wallpapers
+# PRODUCT_PACKAGES += \
+#       LiveWallpapers \
+#       LiveWallpapersPicker \
+#       VisualizationWallpapers
 
 
 # Get the long list of APNs
